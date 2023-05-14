@@ -227,7 +227,7 @@ section:nth-child(6){
   font-family: 'Pacifico', cursive;
   border-radius: 30px;
   font-size: 30px;
-  background-color:rgb(0, 0, 0);
+  background-image: radial-gradient(circle,rgb(24, 23, 23) ,rgb(0, 0, 0));
   padding: 10px;
 }
 
@@ -294,4 +294,28 @@ section:nth-child(6){
   50% {
     opacity: 0;
   }
+}
+
+.i1 .s1{
+  position: absolute;
+  top: 140px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.i1 .s2{
+  position: absolute;
+  top: 200px;
+  font-size: 30px;
+}
+
+.interests{
+  position: absolute;
+  top: 150px;
+}
+
+.i1:hover,
+.i2:hover,
+.i3:hover {
+  transform: scale(1.2);
 }

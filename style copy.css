@@ -1,0 +1,297 @@
+body {
+    background-color: rgb(0, 0, 0);
+  }
+
+  
+  .img{
+    scale: 150%;
+    position: absolute;
+    left: 85px;
+    top: 45px;
+  }
+
+.line1, .line11{
+  background-image: radial-gradient(circle,rgb(0, 0, 0),rgb(17, 17, 17));
+  width: 1000px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 100%;
+  left: 21%;
+}
+
+.line2{
+  background-image: radial-gradient(circle,rgb(0, 0, 0),rgb(17, 17, 17));
+  width: 1000px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 400%;
+  left: 21%;
+}
+
+
+.boxes {
+  display: flex;
+  justify-content:space-evenly;
+  gap: 500px;
+  position: absolute;
+  top: 500%;
+  left: 0%;
+  scale: 50%;
+}
+
+.box{
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  
+  background-image: radial-gradient(circle,rgb(24, 24, 24),rgb(0, 0, 0));
+  border: 2px solid rgb(216, 216, 216);
+  border-radius: 20px;
+}
+
+.text {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.title1, .title2, .title3 {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.title1:hover, .title2:hover, .title3:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.footer1, .footer2, .footer3 {
+  height: 20px;
+  width: 100%;
+  background-color: #444;
+  border-radius: 0 0 20px 20px;
+}
+
+@keyframes float-in {
+  0% {
+    top: 100px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to all elements */
+.main{
+  animation: float-in 2.5s ease forwards;
+}
+
+/* Adjust the animation timing for each element */
+.lines {
+  animation-delay: 0.2s;
+}
+
+.boxes{
+  animation-delay: 1s;
+}
+
+.text{
+  animation-delay: 2s;
+}
+
+.text1{
+  position: absolute;
+  top: 400px;
+  left: 45%;
+  font-size: 60px;
+  font-family: 'Darumadrop One', cursive;
+  font-weight: bold;
+  color: white;
+}
+
+.text2{
+  position: absolute;
+  top: 480px;
+  left: 45%;
+  font-family: 'Darumadrop One', cursive;
+  font-size: 40px;
+  color: white;
+}
+
+.text3{
+  position: absolute;
+  top: 1100px;
+  left: 550px;
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+  color: rgb(0, 0, 0);
+}
+
+.text4{
+  position: absolute;
+  top: 1100px;
+  left: 700px;
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+  color: rgb(0, 0, 0);
+}
+
+.text5{
+  position: absolute;
+  top: 1150px;
+  left: 550px;
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+  color: rgb(0, 0, 0);
+}
+
+.text6{
+  position: absolute;
+  top: 1000px;
+  left: 750px;
+  font-size: 60px;
+  font-family: 'Darumadrop One', cursive;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.text7{
+  position: absolute;
+  top: 1150px;
+  left: 700px;
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+  color: rgb(0, 0, 0);
+}
+
+.sq{
+  position: absolute;
+  top: 1300px;
+  left: 100px;
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: rgb(255, 232, 204);
+  border:3px solid rgb(41, 41, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.sq img{
+  position: absolute;
+  top: 7%;
+  max-width: 100%;
+  max-height: 100%; 
+  scale: 215%;
+}
+
+section{
+  min-height: 100vh;
+}
+
+section:nth-child(6){
+  background-color: rgb(247, 237, 237)
+}
+
+.infobox{
+  display: flex;
+  position: absolute;
+  top: 1300px;
+  left: 8.5%;
+  width: 1500px;
+  height: 600px;
+  gap: 30px;
+}
+
+.i1,.i2,.i3{
+  width: 100%;
+  color: #ffffff;
+  border: 5px solid rgb(0, 0, 0);
+  font-family: 'Pacifico', cursive;
+  border-radius: 30px;
+  font-size: 30px;
+  background-color:rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.i1 h1{
+  position: absolute;
+  left: 130px;
+}
+
+.i2 h1{
+  position: absolute;
+  left: 660px;
+}
+
+.i3 h1{
+  position: absolute;
+  left: 1150px;
+}
+
+.buttons .bt1{
+  position: absolute;
+  left: 1500px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.bt1:hover{
+  text-decoration: underline;
+}
+
+/* Styling for the typing text */
+.typing-text {
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  border-right: 2px solid #000; /* add blinking cursor effect */
+  white-space: nowrap; /* prevent line break */
+  overflow: hidden; /* hide overflow text */
+}
+
+/* Animation for the blinking cursor */
+.typing-text::after {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 24px;
+  margin-left: 4px;
+  background-color: #000;
+  animation: blink 0.7s infinite;
+}
+
+.typing-text h1{
+  color: white;
+  font-family: 'Darumadrop One', cursive;
+}
+
+/* Keyframes for the blinking cursor animation */
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

@@ -49,9 +49,6 @@ section{
   min-height: 100vh;
 }
 
-#section2{
-  background-image: radial-gradient(circle,rgb(240, 234, 211),wheat);
-}
 
 .buttons .bt1{
   position: absolute;
@@ -212,16 +209,97 @@ section{
   justify-content: center;
   position: absolute;
   top: 115%;
-  left: 33.5%;
+  left: 18%;
   gap: 50px;
   flex-direction: column;
-  width: 1100px;
+  width: 1000px;
   height: 700px;
 }
 
 .bx1 span {
   font-size: 25px;
+  font-weight: 700;
   padding: 10px;
   display: block;
   font-family: 'Carme', sans-serif;
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 23%;
+}
+
+.h1{
+  position: absolute;
+  top: 12.5%;
+  left: 34.2%;
+  width: 100px;
+}
+
+.h2{
+  position: absolute;
+  top: 12.5%;
+  left: 22%;
+  width: 15px;
+}
+
+.circle{
+  position: absolute;
+  top: 12.6%;
+  left: 20%;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.circle2{
+  position: absolute;
+  top: 12.6%;
+  left: 20%;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.bx2 span:nth-child(1) {
+  font-size: 25px;
+  padding: 10px;
+  display: block;
+  font-family: 'Carme', sans-serif;
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  display: block;
+}
+
+.bx2 span:nth-child(2) {
+  font-size: 25px;
+  padding: 10px;
+  display: block;
+  font-family: 'Carme', sans-serif;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  display: block;
+}
+
+.bx2 span:nth-child(3){
+  font-size: 25px;
+  padding: 10px;
+  display: block;
+  font-family: 'Carme', sans-serif;
+  color: white;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  display: block;
+}
+
+
+.bx2 span:nth-child(3),
+.bx2 span:nth-child(3) a{
+  color: white;
 }

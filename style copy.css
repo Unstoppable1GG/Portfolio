@@ -58,7 +58,16 @@ section{
   text-decoration: none;
 }
 
-.bt1:hover{
+.buttons .bt2{
+  position: absolute;
+  left: 1600px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.bt1:hover,
+.bt2:hover{
   text-decoration: underline;
 }
 
@@ -209,7 +218,7 @@ section{
   justify-content: center;
   position: absolute;
   top: 115%;
-  left: 18%;
+  left: 30%;
   gap: 50px;
   flex-direction: column;
   width: 1000px;
@@ -302,4 +311,92 @@ section{
 .bx2 span:nth-child(3),
 .bx2 span:nth-child(3) a{
   color: white;
+}
+
+.bx2 span:nth-child(4){
+  font-size: 25px;
+  padding: 10px;
+  display: block;
+  font-family: 'Carme', sans-serif;
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  display: block;
+}
+
+.bx2 span:nth-child(5){
+  font-size: 25px;
+  padding: 10px;
+  display: block;
+  font-family: 'Carme', sans-serif;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  display: block;
+}
+
+.bx2 span:nth-child(6){
+  font-size: 25px;
+  padding: 10px;
+  display: block;
+  font-family: 'Carme', sans-serif;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  display: block;
+}
+
+.bx2 span:nth-child(7){
+  font-size: 25px;
+  padding: 10px;
+  display: block;
+  font-family: 'Carme', sans-serif;
+  color: white;
+  position: absolute;
+  top: 67%;
+  left: 20%;
+  display: block;
+}
+
+.bx2 span:nth-child(8){
+  font-size: 25px;
+  padding: 10px;
+  display: block;
+  font-family: 'Carme', sans-serif;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  display: block;
+}
+
+.bx2 span:nth-child(9){
+  font-size: 25px;
+  padding: 10px;
+  display: block;
+  font-family: 'Carme', sans-serif;
+  color: white;
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  display: block;
+}
+
+.frame{
+  position: absolute;
+  left: 23%;
+  top: 135%;
+  scale: 170%;
+}
+
+.copyright{
+  color: white;
+  position: absolute;
+  top: 195%;
+  left: 40%;
 }

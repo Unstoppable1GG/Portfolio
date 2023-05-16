@@ -389,9 +389,21 @@ section{
 
 .frame{
   position: absolute;
-  left: 23%;
-  top: 135%;
-  scale: 170%;
+  left: 18%;
+  top: 1330px;
+  height: 300px;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.aarav2{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  position: absolute;
+  left: 20%;
+  top: 133%;
 }
 
 .copyright{
@@ -400,3 +412,4 @@ section{
   top: 195%;
   left: 40%;
 }
+

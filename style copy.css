@@ -1,27 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 body {
-    background-color: rgb(0, 0, 0);
-  }
+  background-color: rgb(0, 0, 0);
+}
 
-  
-  .img{
-    scale: 150%;
-    position:absolute;
-    left: 85px;
-    top: 65px;
-  }
+.img {
+  position: relative;
+  left: 5%;
+  top: 40px;
+  scale: 150%;
+}
 
-
-.line2{
-  background-image: radial-gradient(circle,rgb(0, 0, 0),rgb(17, 17, 17));
-  width: 1000px;
+.line1 {
+  background-image: radial-gradient(circle, rgb(0, 0, 0), rgb(17, 17, 17));
+  width: 90%;
   height: 10px;
+  position: relative;
   border: 1px solid white;
   border-radius: 10px;
-  position: absolute;
-  top: 200%;
-  left: 21%;
+  left: 5%;
+}
+
+/* Add responsive adjustments for larger screens */
+@media screen and (min-width: 768px) {
+  .line2 {
+    width: 50%;
+    left: 25%;
+  }
+}
+
+/* Add responsive adjustments for smaller screens */
+@media screen and (max-width: 480px) {
+  .img {
+    transform: scale(1);
+    left: 3%;
+    top: 3%;
+  }
+
+  .line2 {
+    width: 80%;
+    left: 10%;
+  }
 }
 
 @keyframes float-in {
@@ -36,7 +55,7 @@ body {
 }
 
 /* Apply the animation to all elements */
-.main{
+.main {
   animation: float-in 2.5s ease forwards;
 }
 
@@ -45,29 +64,28 @@ body {
   animation-delay: 0.2s;
 }
 
-section{
+section {
   min-height: 100vh;
 }
 
-
-.buttons .bt1{
-  position: absolute;
-  left: 1500px;
+.buttons .bt1 {
+  position: relative;
+  left: 85%;
   padding: 10px;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
-.buttons .bt2{
-  position: absolute;
-  left: 1600px;
+.buttons .bt2 {
+  position: relative;
+  left: 85%;
   padding: 10px;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
 .bt1:hover,
-.bt2:hover{
+.bt2:hover {
   text-decoration: underline;
 }
 
@@ -83,7 +101,6 @@ section{
   color: rgb(255, 255, 255);
   border-right: 2px solid #000; /* add blinking cursor effect */
   white-space: nowrap; /* prevent line break */
-  overflow: hidden; /* hide overflow text */
 }
 
 /* Animation for the blinking cursor */
@@ -238,16 +255,16 @@ section{
 }
 
 .h1{
-  position: absolute;
-  top: 12.5%;
-  left: 34.2%;
+  position: relative;
+  top: -225px;
+  left: -95px;
   width: 100px;
 }
 
 .h2{
-  position: absolute;
-  top: 12.5%;
-  left: 22%;
+  position: relative;
+  top: -235px;
+  left: -270px;
   width: 15px;
 }
 
@@ -388,9 +405,9 @@ section{
 }
 
 .frame{
-  position: absolute;
+  position: relative;
   left: 18%;
-  top: 1330px;
+  top: 320px;
   height: 300px;
   width: 300px;
   border: 2px solid white;
